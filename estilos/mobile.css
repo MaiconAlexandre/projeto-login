@@ -13,17 +13,22 @@ header {
     max-width: 45vw;
     background-color: grey;
 }
-
+div {
+    margin: auto;
+    max-width: 50vw;
+}
 
 main {
     margin: auto;
-    margin-top: 100px;
     padding: 10px;
-    width: 250px;
-    height: 450px;
+    max-width: 50vw;
+    min-height: 30vh;
     background-color: white;
-    border-radius: 12.5px;
+    border-bottom-left-radius: 12.5px;
+    border-bottom-right-radius: 12.5px;
 }
+
+
 
 main h1 {
     text-align: center;
