@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html , body {
+    background-color: purple;
+}
+
+header img {
+    width: 90vw;
+    margin:auto
+}
+
+main {
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+    width: 50vw;
+    height: 400px;
+    background-color: white;
+    border-radius: 12.5px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main p {
+    text-align: center;
+}
+
+main > section > form > p {
+    margin-bottom: 5px;
+    padding: 1px 0px 1px 5px;
+    border-radius: 10px;
+    background-color: purple;
+}
+
+input#isu {
+    border-radius: 10px;
+    padding: 3px;
+}
+
+input#isen {
+    border-radius: 10px;
+    padding: 3px;
+}
+
