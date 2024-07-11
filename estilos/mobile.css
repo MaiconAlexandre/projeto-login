@@ -9,96 +9,104 @@ body {
     background-color: purple;
 }
 
-header {
-    max-width: 45vw;
-    background-color: grey;
-}
-div {
+header p {
     margin: auto;
-    max-width: 50vw;
+    margin-top: 100px;
+    width: 260.8px;
+    height: 200px;
+
+    background-image: url(imagens/fundo2.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 main {
     margin: auto;
+    width: 240px;
+    height: 300px;
     padding: 10px;
-    max-width: 50vw;
-    min-height: 30vh;
+
     background-color: white;
-    border-bottom-left-radius: 12.5px;
-    border-bottom-right-radius: 12.5px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
-
-
 
 main h1 {
     text-align: center;
+    margin-bottom: 10px;
 }
 
-main p {
-    text-align: center;
+p#texto1 {
+    margin-bottom: 10px;
 }
 
-p.fundob {
-    max-width: 45vw;
-    height: 40px;
+p.fundo {
     margin: auto;
-    margin-bottom: 3px;
-    border-radius: 10px;
+    margin-top: 5px;
+    width: 240px;
+    height: 37px;
+    padding-top: 2px;
     background-color: purple;
-    text-align: end;
+    border-radius: 7px;
 }
 
-input#iusu {
-    margin: 2px 0px 2px 0px;
-    padding: 1px 0px 1px 5px;
-    height: 28.5px;
-    border-radius: 10px;
+input#usuario {
+    position: relative;
+    left: 38px;
+    width: 190px;
+    height: 31px;
+    padding-left: 5px;
+    border-radius: 7px;
 }
 
-input#isen {
-    margin: 2px 0px 2px 0px;
-    padding: 1px 0px 1px 5px;
-    height: 28.5px;
-    border-radius: 10px;
-    
+input#senha {
+    position: relative;
+    left: 38px;
+    width: 190px;
+    height: 30px;
+    padding-left: 5px;
+    border-radius: 7px;
 }
 
-input#ilog {
-    margin-top: 10px;
-    border: 0px;
-    font-size: 1em;
-    background-color: #407e4000;
-    color: white;
-}
-
-#ilog:hover {
+#entrar:hover {
     text-shadow: 1px 1px 1px white;
 }
 
-p#backlogin {
-    margin: auto;
-    max-width: 45vw;
-    height: 40px;
-    background-color: #407e408e;
-    border-radius: 10px;
-}
-#reset:hover {
-    text-shadow: 1px 0px 0px black;
+input#entrar {
+    border: 0px;
+    margin-top: 8px;
+    background-color: #1f421f00;
+    color: white;
 }
 
-p#breset {
-    margin: auto;
-    margin-top: 5px;
-    max-width: 45vw;
-    height: 40px;
-    color: white;
-    border: 1px solid black;
-    border-radius: 10px;
+p#fundologin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 240px;
+    height: 35px;
+    text-align: center;
+    
+    border-radius: 5px;
+    background-color: #1f421f54;
+}
+
+p#fundoreset {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 240px;
+    height: 35px;
+
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid #2a572a9f;
 }
 
 input#reset {
-  border: 0px;
-  margin-top: 10px;
-  background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+    margin-top: 8px;
+    background-color: #1f421f00;
 }
-
