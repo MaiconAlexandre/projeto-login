@@ -27,7 +27,7 @@ header p {
 main {
     margin: auto;
     width: 240px;
-    height: 300px;
+    min-height: 45vh;
     padding: 10px;
 
     background-color: white;
