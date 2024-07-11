@@ -18,8 +18,8 @@ main {
     margin: auto;
     margin-top: 100px;
     padding: 10px;
-    width: 50vw;
-    height: 400px;
+    width: 250px;
+    height: 450px;
     background-color: white;
     border-radius: 12.5px;
 }
@@ -32,20 +32,53 @@ main p {
     text-align: center;
 }
 
-main > section > form > p {
-    margin-bottom: 5px;
-    padding: 1px 0px 1px 5px;
+p.fundob {
+    width: 240px;
+    height: 30px;
+    margin-bottom: 3px;
     border-radius: 10px;
     background-color: purple;
+    text-align: end;
 }
 
-input#isu {
+input#iusu {
     border-radius: 10px;
-    padding: 3px;
+    padding: 3px 0px 3px 5px;
 }
 
 input#isen {
+    
     border-radius: 10px;
-    padding: 3px;
+    padding: 3px 0px 3px 5px;
+}
+
+input#ilog {
+    margin-top: 10px;
+    border: 0px;
+    font-size: 1em;
+    background-color: #407e4000;
+    color: white;
+}
+
+#ilog:hover {
+    text-shadow: 1px 1px 1px white;
+}
+
+p#backlogin {
+    width: 240px;
+    height: 40px;
+    background-color: #407e408e;
+    border-radius: 10px;
+}
+#reset:hover {
+    text-shadow: 1px 0px 0px black;
+}
+
+input#reset {
+    margin-top: 5px;
+    width: 230px;
+    height: 40px;
+    border: 1px 1px solid black;
+    border-radius: 10px;
 }
 
