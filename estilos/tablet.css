@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media screen and (min-width:769px){
+    
+   * {
+    margin: 0px;
+    padding: 0px;
+   }
+
+    body {
+        background-color: purple;
+    }
+
+    header {
+        position: relative;
+        top: 31.8vh;
+        left: 60px;
+        margin: 0px 0px 0px 10px;
+        width: 280px;
+        height: 200px;
+
+        background-image: url(imagens/fundo2.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    main {
+        position: relative;
+        top: 6vh;
+        left: 350px;
+        width: 400px;
+        height: 200px;
+
+        background-color: white;
+    }
+
+    
+
+
+}
